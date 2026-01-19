@@ -1,7 +1,9 @@
-# ⚖️ Load Balancer in C++
+# ⚖️ Load Balancer in Java simple Implementation
+
 ## 📘 Overview
 
-This project is a simple Load Balancer simulation implemented in C++.
+This project is a simple Load Balancer simulation implemented in Java.
+
 It demonstrates how requests can be distributed across multiple servers to achieve efficient resource utilization, fault tolerance, and better performance.
 
 A load balancer acts as a traffic controller between clients and backend servers.
@@ -17,7 +19,7 @@ It decides which server should handle an incoming request, ensuring that no sing
 
 * Improve response time and throughput.
 
-* This C++ simulation implements the Round Robin Algorithm, one of the simplest load-balancing techniques.
+* This Java simulation implements the Round Robin Algorithm, one of the simplest load-balancing techniques.
 
 ## ⚙️ Features
 
@@ -48,7 +50,7 @@ This ensures fair distribution without tracking server load.
 ## 📂 Project Structure
     📁 LoadBalancer
 
-    ┣ 📄 Main.cpp
+    ┣ 📄 Loadbalancer.java
 
     ┗ 📄 README.md
 
@@ -81,23 +83,6 @@ This ensures fair distribution without tracking server load.
 
 ❌ No failover detection mechanism in basic implementation.
 
-## 🚀 How to Run
-
-Open the folder in VS Code or terminal.
-
-* Compile the code using:
-
-        g++ Main.cpp -o loadbalancer
-
-
-* Run the program:
-
-        ./loadbalancer
-
-
-* For Windows:
-
-        loadbalancer.exe
 
 ## 🧰 Future Improvements
 
@@ -118,6 +103,5 @@ It can be extended into more advanced versions, integrating with real servers, n
 
     Vihar Chudasama
     🎓 B.E. Computer Science | 
-    💻 C++, Node.js, 
     Full-Stack Developer
     📅 2025
